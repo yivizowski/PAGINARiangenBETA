@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+}
+
+h1,h2,a{
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+/* HEADER NAVEGADOR */
+
+.header{
+    background-image: url(fondoriangen.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(42, 42, 42); 
+    background-blend-mode:exclusion ;
+ 
+}
+
+.nav-header{
+
+
+display:flex;
+justify-content: flex-end;
+align-items: center;
+padding-right: 30px;
+padding-top: 30px;
+text-align: center;
+
+
+}
+
+.nav-text{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 251, 0);
+    margin-right: 20px;
+    border: 1px solid white;
+    padding: 10px 10px;
+ 
+    
+
+}
+
+.nav-text2{
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid white;
+    transition: border 1s;
+}
+
+.nav-text1{
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid white;
+    transition: border 1s;  
+}
+
+.nav-ico{
+    position:fixed;
+    width: 80px;
+    padding-left: 30px;
+    padding-top: 15px;
+    transition: 1s;
+}
+
+/* HEADER NAVEGADOR :HOVER */
+
+.nav-text2:hover{
+    background: linear-gradient(to top, #f73a00, rgb(168, 24, 56), #bd2c77);
+border: 1px solid white;
+
+
+}
+.nav-text3:hover{
+    background: linear-gradient(to top, #0084ff, rgb(118, 0, 253), #ee157a);
+    border: 1x solid white;
+}
+
+.nav-text4{
+    color: black;
+
+}
+
+.nav-ico:hover{
+    width: 85px;
+}
+
+.contenedor-ola{
+    margin-top: -150px;
+}
+
+.titulo-header{
+    font-size: 4rem;
+
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+p{
+    color: white;
+    text-align:start;
+    font-size: 1.2rem;
+    font-family: 'Antonio', sans-serif;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.parrafo-header{
+
+    width: 75vw;
+}
+
+.contenedor-icono{
+  
+    height: 2rem;
+    width: 2rem;
+
+    display: flex;
+    margin: 0 auto;
+    margin-top:50px;
+    transition: 1.2s;
+
+}
+
+.contenedor-icono:hover{
+    height: 2.5rem;
+    width: 2.5rem;
+    filter: invert(0);
+}

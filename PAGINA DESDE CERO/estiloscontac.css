@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+
+h1,h2,a{
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+/* HEADER NAVEGADOR */
+
+.header{
+    background-image: url(fondoriangen.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(41, 41, 41); 
+    background-blend-mode:exclusion ;
+ 
+}
+
+.nav-header{
+
+
+display:flex;
+justify-content: flex-end;
+align-items: center;
+padding-right: 30px;
+padding-top: 30px;
+text-align: center;
+
+
+}
+
+.nav-text{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+    margin-right: 20px;
+    border-bottom: 1px solid white;
+    padding: 10px 10px;
+ 
+    
+
+}
+
+.nav-text2{
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid white;
+    transition: border 1s;
+}
+
+.nav-ico{
+    position:fixed;
+    width: 80px;
+    padding-left: 30px;
+    padding-top: 15px;
+    transition: 1s;
+}
+
+/* HEADER SECTION */
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.whatsapp{
+    font-size: 1.6rem;   
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.whatsapp:hover{
+    background-color: rgba(1, 255, 14, 0.986);
+}
+
+.instagram{
+    font-size: 1.6rem;  
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.664)
+ 
+}
+
+.instagram:hover{
+    background: linear-gradient(to top, #f73a00, rgb(168, 24, 56), #bd2c77);
+}
+.gmail{
+    font-size: 1.6rem;  
+  
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.664);
+    transition: 1s;
+}
+
+.gmail:hover{
+    background-color: rgba(15, 10, 255, 0.986);
+    color: black;
+}
+
+
+
+.contenedor-ola{
+  margin-top: -150px;
+    
+  }
